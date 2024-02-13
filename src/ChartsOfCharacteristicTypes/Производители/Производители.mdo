@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bfceea05-3675-4ae3-834d-851071cd3408">
+  <producedTypes>
+    <objectType typeId="2aa082f8-5f5b-4d42-bf49-b209a7fd9dfa" valueTypeId="0f71587b-6941-4e85-9900-1e0cb10b92f0"/>
+    <refType typeId="db4fdfcc-60bc-4c4e-be4a-19f8751aee83" valueTypeId="cae4b784-e9aa-48be-974b-6dcf2168c041"/>
+    <selectionType typeId="8ebe036e-4f5d-4084-bdbc-b29d8261c6e5" valueTypeId="62e28c27-aa7f-40da-a0d1-dc3c87662152"/>
+    <listType typeId="861dae0c-2309-46bf-bd2e-dcc26c2560dc" valueTypeId="8f5f95af-affc-463f-b9e9-475d8314d193"/>
+    <managerType typeId="437f17c8-3a35-4d6a-a30b-241d947972db" valueTypeId="cc41dd3b-405a-4f40-8877-006324395cdb"/>
+    <containerType typeId="5826bf66-45af-4290-b353-ecce1bff2f17" valueTypeId="035c2a22-d6ac-4ef4-834b-424cc7d4a75f"/>
+  </producedTypes>
+  <name>Производители</name>
+  <synonym>
+    <key>ru</key>
+    <value>Производители</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfCharacteristicTypes.Производители.StandardAttribute.Description</inputByString>
+  <inputByString>ChartOfCharacteristicTypes.Производители.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>10</length>
+    </stringQualifiers>
+  </type>
+  <hierarchical>true</hierarchical>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>25</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:ChartOfCharacteristicTypes>

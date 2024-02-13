@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="30b068ec-bf76-4893-a2a2-6b74f961a5ce">
+  <name>ЦеныТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Цены товаров</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>InformationRegister.ЦеныЗакупкиТоваров</content>
+  <content>InformationRegister.ЦеныПродажиТоваров</content>
+</mdclass:Subsystem>

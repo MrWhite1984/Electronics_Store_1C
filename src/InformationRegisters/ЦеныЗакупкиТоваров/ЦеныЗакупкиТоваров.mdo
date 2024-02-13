@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ff0dad87-7174-47f1-9687-1955fb5efc3e">
+  <producedTypes>
+    <selectionType typeId="bd442020-ba12-4d55-ae5b-d00307bbb6de" valueTypeId="c8d73312-8536-4345-b3e7-87ac044221ed"/>
+    <listType typeId="a34668b5-f1f4-4f23-9453-e92cdd4a6172" valueTypeId="b052c9f9-264b-4d09-b91f-a49c69800ccf"/>
+    <managerType typeId="3fb7b49a-9498-4ed7-917e-ee8013232033" valueTypeId="29d94fd5-c9c4-4ba5-957f-b6c6d8c8e0a5"/>
+    <recordSetType typeId="5b080bb2-555c-4fe0-9144-1ecfd99f5b95" valueTypeId="9d3dcdce-5543-4e8b-b740-164e6f2b56f3"/>
+    <recordKeyType typeId="715bfc59-e07c-44c7-bed7-ffea6ea4a4f3" valueTypeId="dbd239b4-9803-4150-abe8-8c7df28a48c3"/>
+    <recordType typeId="199cbb5c-cbb2-478f-91b3-f5f3996824d7" valueTypeId="6644e198-4e65-44d8-b880-87420e70f11b"/>
+    <recordManagerType typeId="28c44113-8ade-45e6-803d-83a15955072e" valueTypeId="8a413aff-2f01-4921-90d9-29951b0a741a"/>
+  </producedTypes>
+  <name>ЦеныЗакупкиТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Цены закупки товаров</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="05a89013-dd45-4d02-8709-508c511d6254">
+    <name>Цена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="7a8260d9-05e8-4c0a-8331-221d3582843f">
+    <name>Товар</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товар</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Товары</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

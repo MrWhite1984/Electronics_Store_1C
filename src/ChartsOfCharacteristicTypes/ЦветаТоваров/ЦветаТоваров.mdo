@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e9db4063-cafb-4555-9811-b8ae491f84d4">
+  <producedTypes>
+    <objectType typeId="14c7196d-9b80-4d49-ae94-7977ea976a62" valueTypeId="d3373e6d-7757-4dec-a935-dea98d56bec7"/>
+    <refType typeId="d86b1f7a-0b3e-4c6a-a60b-3081b2485d3a" valueTypeId="d91a7598-749a-4dd5-9753-e64fa1f4f47a"/>
+    <selectionType typeId="aeb083ca-c490-4447-82ef-4ed95c738f10" valueTypeId="1cdebbfc-d76c-4f9e-8f0f-289fd3f8620d"/>
+    <listType typeId="82f0814b-19bb-419f-ac81-afa62ad9a30c" valueTypeId="2a6edf5e-291f-473f-b9e1-42e219849fec"/>
+    <managerType typeId="d86faab3-759f-4789-9cc1-7ddafc25f57b" valueTypeId="96e266bf-8fe4-4391-a5af-dd2e32d465b1"/>
+    <containerType typeId="8df5e789-3a96-4039-a03e-046be70f1c46" valueTypeId="68539b47-5703-4c54-b878-1ca1be480672"/>
+  </producedTypes>
+  <name>ЦветаТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Цвета товаров</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfCharacteristicTypes.ЦветаТоваров.StandardAttribute.Description</inputByString>
+  <inputByString>ChartOfCharacteristicTypes.ЦветаТоваров.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>10</length>
+    </stringQualifiers>
+  </type>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>25</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:ChartOfCharacteristicTypes>
